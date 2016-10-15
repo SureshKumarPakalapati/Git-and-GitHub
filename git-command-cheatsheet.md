@@ -105,7 +105,7 @@ $ git add -u
 Registered for all the modified file index  (file newly added is not included)
 
 ```
-$ git add -a
+$ git add -A
 ```
 
 Register all of the files and directories to index
@@ -159,13 +159,13 @@ $ git show
 Cancel the last commit  (the contents intact)
 
 ```
-$ git reset --soft HEAD
+$ git reset --soft HEAD^
 ```
 
 Cancel the contents and commit of the last commit
 
 ```
-$ git reset --hard HEAD
+$ git reset --hard HEAD^
 ```
 
 ## push
